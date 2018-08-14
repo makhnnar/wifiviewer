@@ -6,7 +6,7 @@
     >
 
     <android.support.v4.widget.SwipeRefreshLayout
-        android:id="@+id/fwl_fla_reload"
+        android:id="@+id/wrl_fwl_reload"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 

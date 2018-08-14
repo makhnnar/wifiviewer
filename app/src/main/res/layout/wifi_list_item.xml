@@ -19,7 +19,7 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/iv_wli_foto_user"
+                android:id="@+id/iv_wli_foto_signal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="name"
@@ -47,7 +47,7 @@
                 >
 
                 <TextView
-                    android:id="@+id/tv_wli_nombre_usuario"
+                    android:id="@+id/tv_wli_nombre_wifi"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="3"
@@ -57,16 +57,17 @@
                     android:textStyle="bold"
                     android:gravity="start" />
 
-
-                <ImageView
-                    android:id="@+id/tv_wli_hora"
+                <TextView
+                    android:id="@+id/tv_wli_pass"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:text="hora"
+                    android:text="password"
                     android:textAlignment="viewStart"
                     android:gravity="start"
                     android:paddingTop="4dp"/>
+
+
 
             </LinearLayout>
 

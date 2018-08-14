@@ -10,7 +10,7 @@
 
     <android.support.design.widget.TabLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/tl_ah_tablayout"
+        android:id="@+id/tl_am_tablayout"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:background="@color/colorPrimaryDark"
@@ -18,7 +18,7 @@
 
     <android.support.v4.view.ViewPager
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/vp_ah_viewpager"
+        android:id="@+id/vp_am_viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
