@@ -10,24 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf597a63-aae0-41e3-bc8b-9ceba1776fde" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/testapplication/makhnnar/wifiviewerinit/home/wifigraphics/WifiGraphicsFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/testapplication/makhnnar/wifiviewerinit/home/wifigraphics/WifiGraphicsFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/testapplication/makhnnar/wifiviewerinit/home/wifilist/WifiListAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/testapplication/makhnnar/wifiviewerinit/home/wifilist/WifiListAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/testapplication/makhnnar/wifiviewerinit/home/wifilist/WifiListFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/testapplication/makhnnar/wifiviewerinit/home/wifilist/WifiListFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/testapplication/makhnnar/wifiviewerinit/home/wifilist/model/WifiListItemData.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/testapplication/makhnnar/wifiviewerinit/home/wifilist/model/WifiListItemData.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/add_wifi_dialog.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/add_wifi_dialog.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_wifi_graphics.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_wifi_graphics.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/wifi_list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/wifi_list_item.xml" />
-    </list>
+    <list default="true" id="bf597a63-aae0-41e3-bc8b-9ceba1776fde" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
