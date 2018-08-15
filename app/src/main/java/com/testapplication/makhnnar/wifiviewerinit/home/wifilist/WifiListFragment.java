@@ -61,7 +61,11 @@ public class WifiListFragment extends Fragment implements
         rv_fwl_list_wifi.setLayoutManager(mLayoutManager);
 
         for (int i = 0; i < 10; i++) {
-            mDataset.add(new WifiListItemData("nombre " + i, "mensaje " + i, "foto " + i, i));
+            mDataset.add(new WifiListItemData(
+                    "nombre " + i,
+                    "mensaje " + i,
+                    "foto " + i,
+                    i));
         }
 
         wifiListAdapter = new WifiListAdapter(getContext(), mDataset);

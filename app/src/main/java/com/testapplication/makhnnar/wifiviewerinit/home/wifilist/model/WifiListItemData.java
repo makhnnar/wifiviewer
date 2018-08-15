@@ -44,4 +44,14 @@ public class WifiListItemData {
     public void setIntensity(int intensity) {
         this.intensity = intensity;
     }
+
+    @Override
+    public String toString() {
+        return "WifiListItemData{" +
+                "nombre='" + nombre + '\'' +
+                ", id='" + id + '\'' +
+                ", password='" + password + '\'' +
+                ", intensity=" + intensity +
+                '}';
+    }
 }

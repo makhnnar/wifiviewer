@@ -3,6 +3,7 @@ package com.testapplication.makhnnar.wifiviewerinit.home.wifilist;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -26,9 +27,9 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
         TextView tv_wli_nombre_wifi;
         TextView tv_wli_pass;
         ImageView iv_wli_foto_signal;
-        ImageView tv_wli_add;
-        ImageView tv_wli_delete;
-        ImageView tv_wli_ver_pass;
+        ImageView iv_wli_add;
+        ImageView iv_wli_delete;
+        ImageView iv_wli_ver_pass;
 
 
         ViewHolder(View v) {
@@ -37,9 +38,9 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
             tv_wli_nombre_wifi = v.findViewById(R.id.tv_wli_nombre_wifi);
             tv_wli_pass = v.findViewById(R.id.tv_wli_pass);
             iv_wli_foto_signal = v.findViewById(R.id.iv_wli_foto_signal);
-            tv_wli_add = v.findViewById(R.id.tv_wli_add);
-            tv_wli_delete = v.findViewById(R.id.tv_wli_delete);
-            tv_wli_ver_pass = v.findViewById(R.id.tv_wli_ver_pass);
+            iv_wli_add = v.findViewById(R.id.iv_wli_add);
+            iv_wli_delete = v.findViewById(R.id.iv_wli_delete);
+            iv_wli_ver_pass = v.findViewById(R.id.iv_wli_ver_pass);
 
         }
     }
@@ -48,6 +49,8 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
     public WifiListAdapter(Context context, ArrayList<WifiListItemData> myDataset) {
         mDataset = myDataset;
         mContext = context;
+
+        Log.i("cualquiera", "WifiListAdapter: " + mDataset.size());
     }
 
     @NonNull
@@ -62,6 +65,7 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, final int position) {
+        Log.i("cualquiera", "onBindViewHolder: " + mDataset.get(position).toString());
 
         holder.tv_wli_nombre_wifi.setText(mDataset.get(position).getNombre());
         holder.tv_wli_pass.setText(mDataset.get(position).getPassword());
@@ -76,7 +80,7 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
             }
         });
 
-        holder.tv_wli_add.setOnClickListener(new View.OnClickListener() {
+        holder.iv_wli_add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (listener != null) {
@@ -85,7 +89,7 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
             }
         });
 
-        holder.tv_wli_delete.setOnClickListener(new View.OnClickListener() {
+        holder.iv_wli_delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (listener != null) {
@@ -94,7 +98,7 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
             }
         });
 
-        holder.tv_wli_ver_pass.setOnClickListener(new View.OnClickListener() {
+        holder.iv_wli_ver_pass.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 if (listener != null) {
@@ -102,12 +106,6 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
                 }
             }
         });
-
-
-
-
-
-
 
     }
 
@@ -117,7 +115,6 @@ public class WifiListAdapter extends RecyclerView.Adapter<WifiListAdapter.ViewHo
             notifyDataSetChanged();
         }
     }
-
 
     @Override
     public int getItemCount() {
