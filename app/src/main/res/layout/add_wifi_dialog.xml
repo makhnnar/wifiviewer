@@ -21,7 +21,7 @@
             android:gravity="center"
             android:text="Introduzca Contraseña"
             android:textAlignment="center"
-            android:textColor="@color/colorPrimaryDark"
+
             android:textSize="15sp"
             />
 
@@ -60,7 +60,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:background="@color/colorPrimaryDark"
+
             android:text="Aceptar" />
 
         <Button
@@ -69,7 +69,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:layout_margin="8dp"
-            android:background="@color/colorAccent"
+
             android:text="Cancelar" />
 
     </LinearLayout>
